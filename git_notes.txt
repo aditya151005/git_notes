@@ -1,0 +1,86 @@
+Git is a version control system that tracks the code changes during the development of the software.
+
+GitHub is a cloud-based web platform that manages projects using git.
+
+A repository is a collection of all files and folders related to a project.
+
+Branch-It is a series of code changes.
+
+git-scm.com/download/win- to download git software on the local computer.
+
+git config --global user. name "Username"-To register a username to a git globally.
+
+git config --global user. email "Usermail"-To register user email to a git globally.
+
+touch .gitignore-It creates a .gitignore file that contains all files and folders which are not to be pushed to the GitHub repository.
+
+git init-it creates a local empty git repository or .git folder.
+
+git add .-It transfers all contents of the project to a staging area.
+
+git add particular file/folder-It transfers all contents of the particular file/folder to a staging area.
+
+git status-It checks whether the contents of a project are in a staging or unstaging area.
+
+git commit -m "msg"-To lock the changes of a code.
+
+git commit --amend-To lock the changes in the already existing commit.
+
+git remote add origin "HTTP URL"-It adds the remote repository named 'origin' to the given URL at GitHub. With this remote repository, we can push/pull projects from GitHub.
+
+git push origin master-it pushes the project to a remote repository.
+
+git clone -It creates a local copy of an already existing remote project.
+
+git diff -It shows what changes are made to a modified file.
+
+git log-It shows the history of commits.
+
+git log -n-It shows the latest n commits history.
+
+git show commit-id/commit-hash-It shows what changes are made to a particular commit.
+
+git branch-It gives all the branches which are present in the particular repository.
+
+git checkout -b -It creates a new branch and switches to a newly created branch.
+
+git branch -It creates a new branch.
+
+git checkout -It switches the branch.
+
+git branch -d -It deletes a branch. (note-we can only delete the particular branch by switching to another branch)
+
+git merge -It merges the branches means we can sync the commits of both branches.
+
+git reset --hard HEAD^-It removes the latest commit as well as changes related to the commit.
+
+git reset HEAD^-It removes the latest commit and transfers the changes to the unstaging area.
+
+git reset --soft HEAD^-It removes the latest commit and transfers changes to a staging area.
+
+git restore-It unstages the files. It also discards the uncommitted local changes.
+
+git restore --staged <filename> -It unstages the files.
+
+git restore <filename> -It discards the uncommitted local changes.
+
+git pull origin master-To pull the remote repository means syncing commits of remote and local repositories.
+
+git stash-we can switch to another branch without committing to the current branch.
+
+git stash list-It shows all the stashes.
+
+git stash apply-It applies the recent stash.
+
+git stash apply n-It applies n topmost recent stash.
+
+git stash apply <stash-id>-It applies the particular stash.
+
+git stash pop-It is the combination of git stash apply and git stash drop.
+
+git stash drop-It deletes the most recent stash.
+
+git stash clear-It deletes all the available stash.
+
+git stash branch -It creates a new branch and transfers the stash to that branch.
+
